@@ -60,6 +60,7 @@
             this.btn7.TabIndex = 0;
             this.btn7.Text = "7";
             this.btn7.UseVisualStyleBackColor = true;
+            this.btn7.Click += new System.EventHandler(this.numero_Click);
             // 
             // btn8
             // 
@@ -73,6 +74,7 @@
             this.btn8.TabIndex = 1;
             this.btn8.Text = "8";
             this.btn8.UseVisualStyleBackColor = true;
+            this.btn8.Click += new System.EventHandler(this.numero_Click);
             // 
             // btn9
             // 
@@ -80,12 +82,13 @@
             this.btn9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn9.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn9.ForeColor = System.Drawing.Color.White;
-            this.btn9.Location = new System.Drawing.Point(174, 109);
+            this.btn9.Location = new System.Drawing.Point(174, 107);
             this.btn9.Name = "btn9";
             this.btn9.Size = new System.Drawing.Size(75, 70);
             this.btn9.TabIndex = 2;
             this.btn9.Text = "9";
             this.btn9.UseVisualStyleBackColor = true;
+            this.btn9.Click += new System.EventHandler(this.numero_Click);
             // 
             // btn6
             // 
@@ -99,6 +102,7 @@
             this.btn6.TabIndex = 5;
             this.btn6.Text = "6";
             this.btn6.UseVisualStyleBackColor = true;
+            this.btn6.Click += new System.EventHandler(this.numero_Click);
             // 
             // btn5
             // 
@@ -112,6 +116,7 @@
             this.btn5.TabIndex = 4;
             this.btn5.Text = "5";
             this.btn5.UseVisualStyleBackColor = true;
+            this.btn5.Click += new System.EventHandler(this.numero_Click);
             // 
             // btn4
             // 
@@ -125,6 +130,7 @@
             this.btn4.TabIndex = 3;
             this.btn4.Text = "4";
             this.btn4.UseVisualStyleBackColor = true;
+            this.btn4.Click += new System.EventHandler(this.numero_Click);
             // 
             // btn3
             // 
@@ -138,6 +144,7 @@
             this.btn3.TabIndex = 8;
             this.btn3.Text = "3";
             this.btn3.UseVisualStyleBackColor = true;
+            this.btn3.Click += new System.EventHandler(this.numero_Click);
             // 
             // btn2
             // 
@@ -151,6 +158,7 @@
             this.btn2.TabIndex = 7;
             this.btn2.Text = "2";
             this.btn2.UseVisualStyleBackColor = true;
+            this.btn2.Click += new System.EventHandler(this.numero_Click);
             // 
             // btn1
             // 
@@ -164,6 +172,7 @@
             this.btn1.TabIndex = 6;
             this.btn1.Text = "1";
             this.btn1.UseVisualStyleBackColor = true;
+            this.btn1.Click += new System.EventHandler(this.numero_Click);
             // 
             // btn0
             // 
@@ -177,6 +186,7 @@
             this.btn0.TabIndex = 9;
             this.btn0.Text = "0";
             this.btn0.UseVisualStyleBackColor = true;
+            this.btn0.Click += new System.EventHandler(this.numero_Click);
             // 
             // btnIgual
             // 
@@ -191,10 +201,11 @@
             this.btnIgual.TabIndex = 10;
             this.btnIgual.Text = "=";
             this.btnIgual.UseVisualStyleBackColor = false;
+            this.btnIgual.Click += new System.EventHandler(this.btnIgual_Click);
             // 
             // btnMais
             // 
-            this.btnMais.BackColor = System.Drawing.Color.Black;
+            this.btnMais.BackColor = System.Drawing.Color.Gray;
             this.btnMais.FlatAppearance.BorderSize = 2;
             this.btnMais.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMais.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -205,10 +216,11 @@
             this.btnMais.TabIndex = 11;
             this.btnMais.Text = "+";
             this.btnMais.UseVisualStyleBackColor = false;
+            this.btnMais.Click += new System.EventHandler(this.operador_Click);
             // 
             // btnMenos
             // 
-            this.btnMenos.BackColor = System.Drawing.Color.Black;
+            this.btnMenos.BackColor = System.Drawing.Color.Gray;
             this.btnMenos.FlatAppearance.BorderSize = 2;
             this.btnMenos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMenos.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -219,10 +231,11 @@
             this.btnMenos.TabIndex = 12;
             this.btnMenos.Text = "-";
             this.btnMenos.UseVisualStyleBackColor = false;
+            this.btnMenos.Click += new System.EventHandler(this.operador_Click);
             // 
             // btnMultiplicar
             // 
-            this.btnMultiplicar.BackColor = System.Drawing.Color.Black;
+            this.btnMultiplicar.BackColor = System.Drawing.Color.Gray;
             this.btnMultiplicar.FlatAppearance.BorderSize = 2;
             this.btnMultiplicar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMultiplicar.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -233,10 +246,11 @@
             this.btnMultiplicar.TabIndex = 13;
             this.btnMultiplicar.Text = "*";
             this.btnMultiplicar.UseVisualStyleBackColor = false;
+            this.btnMultiplicar.Click += new System.EventHandler(this.operador_Click);
             // 
             // btnDividir
             // 
-            this.btnDividir.BackColor = System.Drawing.Color.Black;
+            this.btnDividir.BackColor = System.Drawing.Color.Gray;
             this.btnDividir.FlatAppearance.BorderSize = 2;
             this.btnDividir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDividir.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -247,6 +261,7 @@
             this.btnDividir.TabIndex = 14;
             this.btnDividir.Text = "/";
             this.btnDividir.UseVisualStyleBackColor = false;
+            this.btnDividir.Click += new System.EventHandler(this.operador_Click);
             // 
             // btnLimpar
             // 
@@ -264,10 +279,10 @@
             // 
             // txbTela
             // 
-            this.txbTela.BackColor = System.Drawing.Color.Black;
+            this.txbTela.BackColor = System.Drawing.Color.Gray;
             this.txbTela.Font = new System.Drawing.Font("Microsoft YaHei UI", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbTela.ForeColor = System.Drawing.Color.White;
-            this.txbTela.Location = new System.Drawing.Point(12, 12);
+            this.txbTela.Location = new System.Drawing.Point(9, 12);
             this.txbTela.Name = "txbTela";
             this.txbTela.ReadOnly = true;
             this.txbTela.Size = new System.Drawing.Size(318, 89);
@@ -278,7 +293,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Black;
+            this.BackColor = System.Drawing.Color.Gray;
             this.ClientSize = new System.Drawing.Size(339, 422);
             this.Controls.Add(this.txbTela);
             this.Controls.Add(this.btnLimpar);
@@ -297,13 +312,13 @@
             this.Controls.Add(this.btn9);
             this.Controls.Add(this.btn8);
             this.Controls.Add(this.btn7);
-            this.Enabled = false;
-            this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.ForeColor = System.Drawing.Color.White;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculadora Form";
+            this.Click += new System.EventHandler(this.operador_Click);
             this.ResumeLayout(false);
             this.PerformLayout();
 
